@@ -78,7 +78,7 @@ class App extends React.Component {
     const { cartItems } = this.state;
 
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={ process.env.PUBLIC_URL }>
         <Switch>
           <Route
             exact
