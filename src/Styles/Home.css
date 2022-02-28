@@ -1,0 +1,25 @@
+.body {
+  background-color: #51f5f58f;
+  background-image: linear-gradient(315deg, #0cbaba63 0%, #865ab852 74%);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.searchLabel > span {
+  display: none;
+}
+
+.searchInput {
+  font-size: 16px;
+  height: 24px;
+  margin-right: 10px;
+  width: 400px;
+}
+
+.searchButton {
+  width: 100px;
+}
